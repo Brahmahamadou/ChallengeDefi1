@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.conteneur {
+  width: 280px;
+  height: 420px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(19, 171, 213);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: none;
+}
+.cont1 {
+  width: 276px;
+  height: 120px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(19, 171, 213);
+  background-color: rgb(19, 171, 213);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.cont2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(25, 42, 44), rgb(16, 132, 205));
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 6rem;
+}
+.cont3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.cont3 p {
+  margin-top: -1rem;
+  text-align: center;
+}
+.cont3 h5 {
+  margin-top: -1rem;
+  font-style: italic;
+  font-size: bold;
+}
+.social_icons i {
+  margin-left: 12px;
+  color: rgb(19, 171, 213);
+}
+button {
+  background-color: rgb(19, 171, 213);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  margin-top: 7px;
+  width: 120px;
+  height: 32px;
+  cursor: pointer;
+}
